@@ -2,7 +2,7 @@
 # Values for this workshop - EDIT THIS SECTION.
 #--------------------------------------------------------------------------------
 lesson_repo     : "https://github.com/qjcg/2015-02-14"
-lesson_site     : "https://qjcg.github.io/2015-02-14"
+lesson_site     : "http://qjcg.github.io/2015-02-14"
 #--------------------------------------------------------------------------------
 # Standard Software Carpentry settings - should not need to be modified.
 #--------------------------------------------------------------------------------
