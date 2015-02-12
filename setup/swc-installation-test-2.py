@@ -70,9 +70,9 @@ CHECKS = [
     'virtual-browser',
 # Version control
     'git',
-    'hg',              # Command line tool
+    #'hg',              # Command line tool
     #'mercurial',       # Python package
-    'EasyMercurial',
+    #'EasyMercurial',
 # Build tools and packaging
     'make',
     'virtual-pypi-installer',
@@ -84,8 +84,8 @@ CHECKS = [
     'py.test',         # Command line tool
     'pytest',          # Python package
 # SQL
-    'sqlite3',         # Command line tool
-    'sqlite3-python',  # Python package
+    #'sqlite3',         # Command line tool
+    #'sqlite3-python',  # Python package
 # Python
     'python',
     'ipython',         # Command line tool
@@ -98,7 +98,8 @@ CHECKS = [
     'sympy',
     'Cython',
     'networkx',
-    'mayavi.mlab',
+    'nltk',
+    #'mayavi.mlab',
     ]
 
 CHECKER = {}
@@ -700,6 +701,7 @@ for package,name,long_name,minimum_version,and_dependencies in [
         ('networkx', None, 'NetworkX', None, None),
         ('mayavi.mlab', None, 'MayaVi', None, None),
         ('setuptools', None, 'Setuptools', None, None),
+        ('nltk', None, 'NLTK Python package', None, None),
         ]:
     if not name:
         name = package
